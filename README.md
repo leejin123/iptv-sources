@@ -12,14 +12,11 @@ Join discord: [![Discord](https://discord.badge.ibert.me/api/server/betxHcsTqa)]
 
 Sources are from:
 
-- <https://epg.pw/test_channel_page.html>
-- [iptv.org](https://github.com/iptv-org/iptv)
-- [YueChan/Live](https://github.com/YueChan/Live)
-- [YanG-1989/m3u](https://github.com/YanG-1989/m3u)
-- [fanmingming/live](https://github.com/fanmingming/live)
-- [qwerttvv/Beijing-IPTV](https://github.com/qwerttvv/Beijing-IPTV)
-- [joevess/IPTV](https://github.com/joevess/IPTV)
-- [cymz6/AutoIPTV-Hotel](https://github.com/cymz6/AutoIPTV-Hotel)
+Sources are from:
+
+- [爱优荟直播](https://www.iyouhun.com/tv/zb)
+- [epg.pw - 全部频道](https://epg.pw/test_channels.m3u)
+- [epg.pw - 香港频道](https://epg.pw/test_channels_hong_kong.m3u)
 
 EPG Sources are from:
 
