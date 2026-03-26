@@ -43,33 +43,21 @@ export const epg_pw_filter: ISource["filter"] = (
 
 export const epg_pw_sources: TSources = [
     {
+        name: "爱优荟直播",
+        f_name: "iyouhun",
+        url: "https://www.iyouhun.com/tv/zb",
+        filter: epg_pw_filter,   // 复用同一个去重过滤函数
+    },
+    {
         name: "epg.pw China",
         f_name: "cn",
-        url: "https://epg.pw/test_channels_china.m3u",
+        url: "https://epg.pw/test_channels.m3u",
         filter: epg_pw_filter,
     },
     {
-        name: "epg.pw China National",
-        f_name: "cn_n",
-        url: "https://epg.pw/test_channels_china_national.m3u",
-        filter: epg_pw_filter,
-    },
-    {
-        name: "epg.pw China Country",
-        f_name: "cn_c",
-        url: "https://epg.pw/test_channels_china_country.m3u",
-        filter: epg_pw_filter,
-    },
-    {
-        name: "epg.pw China Province",
-        f_name: "cn_p",
-        url: "https://epg.pw/test_channels_china_province.m3u",
-        filter: epg_pw_filter,
-    },
-    {
-        name: "epg.pw All",
-        f_name: "all",
-        url: "https://epg.pw/test_channels_all.m3u",
+        name: "epg.pw Hong Kong",
+        f_name: "hk",
+        url: "https://epg.pw/test_channels_hong_kong.m3u",
         filter: epg_pw_filter,
     },
 ]
